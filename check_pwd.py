@@ -1,3 +1,7 @@
+# CS362-SU20, A2-TDD
+# Ryan Stachura
+# Oregon State University
+
 def check_pwd(pwd):
     """length, lower, upper, digit, symbol = False, False, False, False, False
     SYMBOLS = "~`!@#$%^&*()_+-="

@@ -21,5 +21,8 @@ class TestCase(unittest.TestCase):
     def test4(self):
         self.assertTrue(check_pwd("1"))
 
+    def test5(self):
+        self.assertTrue(check_pwd("$"))
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

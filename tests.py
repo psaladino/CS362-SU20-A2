@@ -13,10 +13,13 @@ class TestCase(unittest.TestCase):
         self.assertFalse(check_pwd(""))
 
     def test2(self):
-        self.assertTrue(check_pwd("abcdefghijklmnop"))
+        self.assertTrue(check_pwd("a"))
 
     def test3(self):
-        self.assertTrue(check_pwd("ABCDEFGHIJKLMNOOP"))
+        self.assertTrue(check_pwd("A"))
+
+    def test4(self):
+        self.assertTrue(check_pwd("1"))
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

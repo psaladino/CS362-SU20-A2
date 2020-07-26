@@ -1,3 +1,3 @@
-import check_pwd from check_pwd.py
+from check_pwd.py import check_pwd
 
 check_pwd("")

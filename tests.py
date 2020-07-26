@@ -1,3 +1,8 @@
+# CS362-SU20, A2-TDD
+# Ryan Stachura
+# Oregon State University
+
+
 import unittest
 from check_pwd import check_pwd
 

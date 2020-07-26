@@ -6,4 +6,7 @@ SYMBOLS = "~`!@#$%^&*()_+-="
 
 def check_pwd(pwd):
 
+    if any(char.islower() for char in pwd):
+        return True
+
     return False

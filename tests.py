@@ -9,8 +9,11 @@ from check_pwd import check_pwd
 
 class TestCase(unittest.TestCase):
 
-    def test1(self):
-        self.assertFalse(check_pwd(""))
+    def test1():
+        assertFalse(check_pwd(""))
+
+    def test2():
+        assertFalse(check_pwd("abcdefghijklmnop"))
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

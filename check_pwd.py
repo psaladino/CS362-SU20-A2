@@ -3,7 +3,7 @@
 # Oregon State University
 
 def check_pwd(pwd):
-    """length, lower, upper, digit, symbol = False, False, False, False, False
+    length, lower, upper, digit, symbol = False, False, False, False, False
     SYMBOLS = "~`!@#$%^&*()_+-="
 
     # Check if password length is sufficient
@@ -29,6 +29,4 @@ def check_pwd(pwd):
         return True
     
     else:
-        return False"""
-    
-    return True
+        return False

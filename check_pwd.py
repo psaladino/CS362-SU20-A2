@@ -1,24 +1,24 @@
 def check_pwd(pwd):
-  length, lower, upper, digit, symbol = false, false, false, false, false
+  length, lower, upper, digit, symbol = False, False, False, False, False
   SYMBOLS = "~`!@#$%^&*()_+-="
 
   // Check if password length is sufficient
   if (len(pwd)<8 || len(pwd)>20):
-    length = true;
+    length = True;
   
   // Check other criteria
   for char in pwd:
     if char.islower():
-      lower = truee
+      lower = True
       
     elif char.isupper():
-      upper = true
+      upper = True
     
     elif char.isdigit():
-      digit = true
+      digit = True
       
     elif char in SYMBOLS:
-      symbol = true
+      symbol = True
       
     // Check that all are true
     if (length and lower and upper and digit and symbol):

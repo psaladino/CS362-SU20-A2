@@ -9,7 +9,7 @@ def check_pwd(pwd):
     if any(char.islower() for char in pwd):
         return True
 
-    if any(char.isupper() for char in pwd)
+    if any(char.isupper() for char in pwd):
         return True
 
     return False

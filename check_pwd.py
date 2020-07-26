@@ -6,7 +6,7 @@ SYMBOLS = "~`!@#$%^&*()_+-="
 
 def check_pwd(pwd):
 
-    if (len(pwd)<8 or len(pwd)>20):
-        return False
+    if (len(pwd)>=8 and len(pwd)<=20):
+        return True
 
-    return True
+    return False

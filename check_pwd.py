@@ -7,6 +7,6 @@ SYMBOLS = "~`!@#$%^&*()_+-="
 def check_pwd(pwd):
 
     if any(char.islower() for char in pwd) and any(char.isupper() for char in pwd) and any(char.isdigit() for char in pwd) and any(char in SYMBOLS for char in pwd):
-        return True
+        return False
 
     return False
